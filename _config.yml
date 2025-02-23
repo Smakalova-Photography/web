@@ -1,24 +1,24 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+title: Šmakalová Photography
+email: "contact@smakalova.art"
+description: "Fine Art Photography"
+url: "https://smakalova.art"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
-instagram_username: ""
+instagram_username: "smakalova.art"
 github_username:  ""
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
-share: true
+share: false
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Smakalova Photography
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: photography portfolio
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -26,16 +26,13 @@ owner:
 #Set 'provider: false' to disable comments globally.
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
-comments :
-  provider : disqus
-  disqus :
-    short_name : ""
+comments:
+  provider: false
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - PORTFOLIO: "/portfolio/"
+  - ABOUT: "/about/"
 
 # All translation keys
 translations:
@@ -51,13 +48,6 @@ port:             	 4000
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
-paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
-gems: 
- - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # SiteMap
